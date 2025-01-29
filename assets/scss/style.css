@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Indie+Flower&display=swap');
+
+:root {
+    --background: #4E0012;
+    --border: #890012;
+    --accent: #C18501;
+    --font: #001B30;
+    --line-height: 2.2rem;
+    --radius: 4px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+} 
+body {
+    background: whitesmoke;
+    box-sizing: border-box;
+    font-family: "Indie Flower", serif;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.55rem + 0.8vw, 1.25rem);
+    line-height: 2.4rem;
+}
+h1{
+    font-family: "Homemade Apple", serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #4E0012;
+    text-align: center;
+    text-decoration: underline;
+}
+h2, h3{
+    color: #890012;
+    font-family: "Homemade Apple", serif;
+}
+a{
+    color: #890012;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #C18501;
+}
+#notebook-paper {
+    width:960px;
+    height:1109px;
+    background: linear-gradient(to bottom,white 29px,#00b0d7 1px);
+    margin:50px auto;
+    background-size: 100% 30px;
+    position:relative;
+    padding-top:55px;
+    padding-left:160px;
+    padding-right:20px;
+    overflow:hidden;
+    border-radius:5px;
+    -webkit-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+    -moz-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+    -ms-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+    -o-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+    box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+    &:before {
+      content:'';
+      display:block;
+      position:absolute;
+      z-index:1;
+      top:0;
+      left:140px;
+      height:100%;
+      width:1px;
+      background:#db4034;
+}
