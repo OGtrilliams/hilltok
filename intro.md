@@ -1,8 +1,10 @@
 ---
 layout: default
-title: "Syllabus list"
+title: "Class list"
 permalink: intro.html
 ---
+
+[HillTok University Class Schedule](https://docs.google.com/spreadsheets/u/1/d/1mfd_rx5enTGaZABWNyelwKOgHUWD0pew/htmlview?pli=1)
 
 [Intro to systems administration](#)
 
